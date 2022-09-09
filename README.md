@@ -9,11 +9,11 @@ npm install react-native-pine-labs
 ## Usage
 
 ```js
-import { multiply } from "react-native-pine-labs";
+import { init, createOrderToken } from 'react-native-pine-labs';
 
 // ...
-
-const result = await multiply(3, 7);
+init(your_merchantSecret, your_merchantId,   your_merchantAccessCode)
+const result = await createOrderToken(yourJsonObject);
 ```
 
 ## Contributing
